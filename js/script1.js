@@ -21,12 +21,12 @@ let months =[
     "November",
     "December"
 ];*/
-let d = newDate();
+let d = Date();
 //let dayName =daynames[d.getDay()];
 //let monthName = months[d.getMonths()];
 let year = d.getFullYear();
-//let fulldate = `dayName, monthName $d.getDate(), $d.getFullYear() `;
-document.getElementById("currentYear").textContent=year;
+//let fulldate = `dayName, monthName ${d.getDate()}, ${d.getFullYear()}`;
+document.querySelector(".currentYear").textContent=year;
 
 //document.getElementById("currentTime").textContent=fulldate;
 let oLastModif = new Date(document.lastModified);
