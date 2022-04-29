@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: rgb(233, 224, 210);
+}
+header, main, footer{
+    max-width: 960px;
+    margin: 1rem auto;
+}
+ body{
+     box-sizing: border-box;
+ }
+header h2{
+    background-color: grey;
+    margin-bottom: 1em;
+    font-family: 'Bangers', cursive;
+    justify-items: center;
+    padding:1em;
+    text-align: center;
+
+}
+ div{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 1fr 100px 1fr ;
+    width:fit-content;
+   
+    align-content: center;
+}
+h3{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: medium;
+}
+p{
+    font-family: 'Nanum Myeongjo', serif;
+    padding: 1em;
+}
+#tabchoir{
+grid-column: 1;
+grid-row: 2;
+
+}
+#familysearch{
+    grid-column: 2;
+    grid-row: 2;
+
+}
+#dell{
+
+    grid-column: 3;
+    grid-row: 2;
+}
+footer{
+    border: 3px ridge black;
+    padding: 10px;
+    background-color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    color: goldenrod;
+    width: auto;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 20px black;
+}

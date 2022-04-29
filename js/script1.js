@@ -1,51 +1,8 @@
-/*let daynames =[
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday", 
-    "Thursday",
-    "Friday",
-    "Saturday"
-];
-let months =[
-    "January",
-    "February",
-    "March",
-    "April",
-    "May",
-    "June",
-    "July",
-    "August",
-    "September",
-    "October",
-    "November",
-    "December"
-];*/
-let d = Date();
-//let dayName =daynames[d.getDay()];
-//let monthName = months[d.getMonths()];
-let year = d.getFullYear();
-//let fulldate = `dayName, monthName ${d.getDate()}, ${d.getFullYear()}`;
-document.querySelector(".currentYear").textContent=year;
+let year = newDate.prototipe.getFullYear();
+document.querySelector(".currentYear").innerHTML=`${year}`;
 
-//document.getElementById("currentTime").textContent=fulldate;
-let oLastModif = new Date(document.lastModified);
-document.getElementById("currentTime").textContent=oLastModif;
+let oLastModif = newDate(document.lastModified);
+document.querySelector("#currentTime").innerHTML =`Last updated ${document.LastModified}`;
 
-
-
-
-
-/*
-try{
-    let options ={
-        weekday: "short",
-        day: "numeric",
-        month:"short",
-        year:"numeric"
-    };
-    document.getElementById("currentTime").textContent=newDate("en-US".options);
-    catch (e){
-        alert("Error with code on your browser does not support locale");
-    }
-}  */
+let x=5
+document.getElementById("#sums").innerText=x+10;
