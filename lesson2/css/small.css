@@ -1,0 +1,50 @@
+@media only screen and (max-width:32.5rem){
+    div{
+        grid-template-columns: 1;
+        grid-template-rows: repeat(9,1fr);
+
+    }
+    #tab{
+        grid-column: 1;
+        grid-row:1;
+
+    }
+    #fam{
+        grid-column: 1;
+        grid-row: 4;
+
+    }
+    #com{
+    grid-row:7;
+    }
+    #tabchoir{
+        grid-column: 1;
+        grid-row: 2;
+        
+        }
+    #familysearch{
+            grid-column: 1;
+            grid-row: 5;
+        
+        }
+    #dell{
+        
+            grid-column: 1;
+            grid-row: 8;
+    }
+    #rep{
+        grid-column: 1;
+        grid-row: 3;
+
+    }
+    #Hick{
+        grid-column: 1;
+        grid-row: 6;
+
+    }
+    #White{
+        grid-column: 1;
+        grid-row: 9;
+
+    }
+}
