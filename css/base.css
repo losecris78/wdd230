@@ -43,10 +43,10 @@ h2{
 footer{
     border: 3px ridge black;
     padding: 10px;
-    background-color: rgb(59, 56, 56);
+    background-color: rgb(106,101,101);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
-    color:#c9e609;
+    color:goldenrod;
     width: auto;
     justify-content: center;
     text-align: center;
