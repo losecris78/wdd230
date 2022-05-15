@@ -1,0 +1,59 @@
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {background-color: #E3D26F;
+     -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+h1{
+    font-family: 'Dosis', sans-serif;
+    color:#984447;
+    background-color:#d0e1e1 ;
+    font-size: 80px;
+    text-align: center;
+    padding: 1rem;
+}
+h2,h3{
+    font-family: 'Abel', sans-serif;
+    margin: 15px;
+    padding: 1rem;
+    
+}
+p{
+  font-family: 'Libre Baskerville', serif;  
+  margin: 15px;
+  padding: 1rem;
+}
+nav button{
+    margin: .2rem 2 vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+nav{
+    background-color: #eee;
+}
+
+nav ul {
+    display:none;
+    list-style: none;
+    padding:2vw ;
+    margin: .2rem 2vw;
+}
+nav ul li a{
+    display:block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5) ;
+}
+
+
+
+nav ul li .active a{
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
