@@ -7,15 +7,23 @@ h1{
     font-family: 'Dosis', sans-serif;
     color:#984447;
     background-color:#d0e1e1 ;
-    font-size: 80px;
-    text-align: center;
-    padding: 1rem;
+    font-size: 28px;
+    text-align: justify;
+    padding: 10px;
+    display:table-row;
 }
 h2,h3{
     font-family: 'Abel', sans-serif;
     margin: 15px;
     padding: 1rem;
     
+}
+.logo{
+    align-items: center;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin: 2rem auto;
+    padding: 1rem;
+
 }
 p{
   font-family: 'Libre Baskerville', serif;  
@@ -38,6 +46,7 @@ nav ul {
     list-style: none;
     padding:2vw ;
     margin: .2rem 2vw;
+    align-content: space-around;
 }
 nav ul li a{
     display:block;
