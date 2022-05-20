@@ -1,0 +1,16 @@
+@media screen {
+
+
+    
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+nav li{
+    flex: 1 1 100%;
+    text-decoration: none;
+}
+}

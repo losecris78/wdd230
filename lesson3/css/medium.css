@@ -1,0 +1,13 @@
+@media only screen and (max-width:64.5rem){  
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+nav li{
+    flex: 1 1 100%;
+    text-decoration: none;
+}
+}
