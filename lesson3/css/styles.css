@@ -12,13 +12,16 @@ header, main, footer{
     margin: 1rem auto;
     padding: 100px;
 }
+div img{
+    max-width: 1fr;
+}
 
 h1{
     font-family: 'Dosis', sans-serif;
     color:#984447;
     background-color:#d0e1e1 ;
-    font-size: 80px;
-    text-align: center;
+    font-size: 35px;
+    text-align: left;
     padding: 1rem;
 }
 h2,h3{
