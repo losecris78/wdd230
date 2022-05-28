@@ -1,21 +1,28 @@
-@media  only screen and (min-width: 35rem){
+@media  only screen and (max-width: 35rem){
  body{
-     margin:0 auto;
-     padding: 1rem;
+     margin: 0 auto;
+     
+   width: 80vw;
+   background-color: #E3D26F;
  }   
+ .name{
+    display: block;
+    border:2px solid black;
+    justify-items: left;
+    justify-content: left;
+}
 div{
     border:2px solid black;
     display:block;
-    padding: 5em;
+    padding: 1em;
     width:auto;
 }
 h1{font-family: 'Dosis', sans-serif;
     color:#984447;
-    background-color:#d0e1e1 ;
-    font-size: 28px;
-    text-align: center;
-    padding: 10px;
-    border: 1px solid black;
+        font-size: 18px;
+    text-align: left;
+    padding:.5em;
+    
 
 }
 div img{
@@ -25,10 +32,12 @@ div img{
     align-content: center;
     border: 2px solid rgba(0, 0, 0, 0.3);
     margin: 2rem auto;
-    padding: 1rem;
-    max-width: 80vw;
+    padding: 1em;
+    width:auto;
+    box-shadow: .5em rgba(0, 0, 0, 0.2);
 }
 nav button{
+    display:block;
     margin: .2rem 2vw;
     background: transparent;
     border: none;
@@ -69,6 +78,24 @@ nav ul li .active a{
 
 nav ul li a:hover {
     background-color: rgba(0, 0, 0, 0.3);
+}
+.center,.right,.left{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+.one,.two,.three, .four,.five,.six,.seven,.eight,.nine{
+    flex-direction: column;
+    width: 150px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: aquamarine;
+}
+
+p{
+    font-family: 'Libre Baskerville', serif;  
+    margin: 15px;
+    padding: 1rem;
 }
 /*html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 

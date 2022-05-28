@@ -1,15 +1,16 @@
 
 *{
-    padding:100px;
-    width: 100%;
+    /*padding:100px;
+    //*width: 100%;*/
     margin: 0;
 }
 div h1{
     text-align: center;
-    font-size: 81px;
+    font-size: 50px;
+    width: auto;
 }
 nav{
-    /*border: 2px solid black;*/
+    
     background-color: #E3D26F;
 }
  nav ul li a{
