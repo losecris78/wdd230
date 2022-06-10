@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Favorite fruit start</title>
+    <link rel="stylesheet" href="lesson8/example.css".css">
+    <!--style>
+      input:invalid {
+        border: 2px dashed red;
+      }
+      input:invalid:required {
+  background-image: linear-gradient(to right, pink, lightgreen);
+}
+      input:valid {
+        border: 2px solid black;
+      }
+    </style-->
+</head>
+
+<body>
+    <form>
+      <label for="choose">Would you prefer a banana or a cherry?(required)</label>
+      <input id="choose" name="i_like" required pattern="[Bb]anana|[Cc]herry">>
+      <button>Submit</button>
+    </form>
+
+    <form>
+        <label for="mail">I would like you to provide me with an e-mail address:</label>
+        <input type="email" id="mail" name="mail">
+        <button>Submit</button>
+      </form>
+      <form novalidate>
+        <p>
+          <label for="mail">
+            <span>Please enter an email address:</span>
+            <input type="email" id="mail" name="mail" required minlength="8">
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </p>
+        <button>Submit</button>
+      </form>
+      <table>
+        <colgroup>
+          <col>
+          <col style="background-color: yellow">
+        </colgroup>
+        <tr>
+          <th>Data 1</th>
+          <th>Data 2</th>
+        </tr>
+        <tr>
+          <td>Calcutta</td>
+          <td>Orange</td>
+        </tr>
+        <tr>
+          <td>Robots</td>
+          <td>Jazz</td>
+        </tr>
+      </table>
+      
+      
+      
+</body>
+<script src="/lesson8/example.js"></script>
+
+</html>
