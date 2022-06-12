@@ -1,0 +1,22 @@
+@media only screen and (max-width: 64rem) {
+    nav button{
+        display:none;
+    }
+    nav ul#primaryNav{
+        display:flex;
+        margin-left: 2vw;
+        
+        }
+    
+    nav ul li a{
+        border: none;
+        
+    }
+    div img{
+        max-width: 1fr;
+    }
+    h1{
+        font-size: 40px;
+    }
+    
+    }
