@@ -7,8 +7,8 @@ body{
     display:block;
     border: 1px solid black;
     padding: .75em;
-    float: inherit;
-    width:max-content;
+    
+    width:inherit;
 }
 header, footer{
     text-align: center;
