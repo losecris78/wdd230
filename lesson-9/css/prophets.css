@@ -1,17 +1,19 @@
 body{
     margin: 0;
     padding:0 1em ;
+    font-family: 'Joan', serif;
 }
 .cards{
     display:block;
     border: 1px solid black;
-    padding: 1em;
-    float: inherit
+    padding: .75em;
+    float: inherit;
+    width:max-content;
 }
 header, footer{
     text-align: center;
 }
-h1{font-size: 20px;
+h1{font-size: 40px;
 color:rgb(101,22,22)
 }
 main{
@@ -20,7 +22,11 @@ main{
 img{
 
     max-width: 12em;
+    margin-left: 2em;
     
+}
+p{
+    max-width: fit-content;
 }
 @media (min-width: 351px)  {
     .cards{
@@ -28,7 +34,7 @@ img{
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         justify-items: center;
-        
+        padding: 1em;
     }
     body{
         padding: 2em;

@@ -18,8 +18,11 @@ async function getProphets(){
             let image = document.createElement('img');
             
             h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-            p.innerHTML = `Location: ${prophet.birthplace}`;
+            p.innerHTML = `Location: ${prophet.birthplace} Birth: ${prophet.birthdate} - Death: ${prophet.death}`;
             image.setAttribute('src', prophet.imageurl);
+            image.setAttribute('alt',`Picture of President ${prophet.name} ${prophet.lastname} Order: ${prophet.order}`);
+            image.setAttribute('loading', 'lazy');
+
             card.append(h2);
             card.append(p);
             card.append(image);
