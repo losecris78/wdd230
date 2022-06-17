@@ -2,13 +2,15 @@ body{
     margin: 0;
     padding:0 1em ;
     font-family: 'Joan', serif;
+    box-shadow: 4px black;
+   width:fit-content;
 }
 .cards{
     display:block;
-    border: 1px solid black;
-    padding: .75em;
+    padding: .5em;
+    margin: 1em;
     
-    width:inherit;
+    
 }
 header, footer{
     text-align: center;
@@ -18,19 +20,33 @@ color:rgb(101,22,22)
 }
 main{
     background-color: aquamarine;
+    
+    border: 1px solid black;
 }
 img{
 
-    max-width: 12em;
-    margin-left: 2em;
+    max-width: 10em;
+    margin: 0.5em;
+    border: 3px solid grey;
+    box-shadow: .3rem rgb(39, 36, 36);
+
+    
     
 }
-p{
-    max-width: fit-content;
+h2{
+    padding: .5em;
+    margin: 1em .5em .5em .5em;
+    text-align: center;
 }
-@media (min-width: 351px)  {
+p{
+    width:auto;
+    padding: 1em;
+    text-align: justify;
+}
+@media (min-width: 360px)  {
     .cards{
         display:grid;
+        width: 75%;
         grid-template-columns: 1fr 1fr;
         justify-content: center;
         justify-items: center;
@@ -39,26 +55,18 @@ p{
     body{
         padding: 2em;
         }
-    img{
-
-        max-width: 16em;
-    }
-
+   
 
 @media (min-width: 700px)  {
     .cards{
-        width:auto;
+        width: 100%
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr ;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 1.25em;
         gap: 1em;
         margin:auto;
-        }
+    }
     body{
-            padding: 3em;
-            }
-    img{
-
-            max-width: 18em;
-        }
+        padding: 3em;
+    }
 }
