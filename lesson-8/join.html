@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Abel&family=Dosis&family=Libre+Baskerville&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="js/favicon.ico">
     <link href="./css/medium.css" rel="stylesheet">
     <link href="./css/large.css" rel="stylesheet">
     <link href="./css/base.css" rel="stylesheet">
@@ -40,18 +40,18 @@
         <form action="thankyou.html" method="get">
             <caption>Join us form</caption>
             <fieldset>
-                <label for="First Name"> First Name* <input type="text" name="firstN" required></label>
-                <label for="Last Name"> Last Name* <input type="text" name="lastN" required></label>
-                <label for="Business Position"> Business Position <input type="text" name="position" minlength="7" ></label>
-                <label for="Email"> Email <input type="email" name="email" id="email1" placeholder="name@example.com"></label>
-                <label for="cellphone"> Cellphone number* <input type="tel" name="phone" id="cellphone" required></label>
-                <label for="Business Name"> Business Name/title* <input type="text" name="company" id="company" required> </label>
+                <label class="data" for="First Name"> First Name* <input type="text" name="firstN" required></label>
+                <label class="data" for="Last Name"> Last Name* <input type="text" name="lastN" required></label>
+                <label class="data" for="Business Position"> Business Position <input type="text" name="position" minlength="7" ></label>
+                <label class="data" for="Email"> Email <input type="email" name="email" id="email1" placeholder="name@example.com"></label>
+                <label class="data" for="cellphone"> Cellphone* <input type="tel" name="phone" id="cellphone" required></label>
+                <label class="data" for="Business Name"> Business Name or business title* <input type="text" name="company" id="company" required> </label>
             </fieldset>
             <fieldset>
-                <label for="membership"><input type="radio" name="membership" class="membership" value="np"> Non-profit organizations</label>
-                <label for="membership"><input type="radio" name="membership" class="membership" value="bronze"> Bronze</label>
-                <label for="membership"><input type="radio" name="membership" class="membership" value="silver"> Silver</label>
-                <label for="membership"><input type="radio" name="membership" class="membership" value="gold"> Gold</label>
+                <label class="substype" for="membership"><input type="radio" name="membership" class="membership" value="np"> Non-profit organizations</label>
+                <label class="substype" for="membership"><input type="radio" name="membership" class="membership" value="bronze"> Bronze</label>
+                <label class="substype" for="membership"><input type="radio" name="membership" class="membership" value="silver"> Silver</label>
+                <label class="substype" for="membership"><input type="radio" name="membership" class="membership" value="gold"> Gold</label>
 
                 <p><h3>Non profit organizations ONG's $50</h3>
                     You will receive our publications and will have access to our events. You will just be included in our chamber supporters group.
@@ -65,15 +65,15 @@
                     Your business will be on our commerce priority focus, you will receive particular legal and comercial support. You will be advertised on our events and site with widescreen banners. You will be included in all of our top level events.
                 </p>
                 <label for="description">Briefly describe your business<textarea name="businessdescription" id="businessDesc" cols="30" rows="10"></textarea></label>
-                <span hidden name="dateand time" id="datetime"></span>
+                <span hidden name="date and time" id="today"></span>
             </fieldset>
-            <input type="submit" value="Join">
+            <input id="joinButton" type="submit" value="Join">
         </form>
 
     </main>
     <footer>
         <div>
-            <img src="favicon.ico" alt="logochamberparana" width="20">
+            <img src="js/favicon.ico" alt="logochamberparana" width="20">
            <p>Rua. Eduardo Sprada 3285, Campo Comprido, Curitiba, Paraná
                
 

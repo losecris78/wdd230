@@ -18,5 +18,7 @@
     h1{
         font-size: 40px;
     }
-    
+    form .data .substype{
+        display:block;
+    }
     }
