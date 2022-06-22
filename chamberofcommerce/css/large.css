@@ -1,0 +1,31 @@
+@media screen {
+
+        
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #E3D26F;
+} 
+h1{font-family: 'Dosis', sans-serif;
+    color:#984447;
+    background-color:#d0e1e1 ;
+    padding: 1rem;
+    font-size: 80px;
+    text-align: center;
+}
+div img{
+    width: max-content;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    overflow: hidden;
+   
+}
+nav li{
+    flex: 1 1 100%;
+    text-decoration: none;
+}
+}
