@@ -2,7 +2,7 @@
         
 *{
     margin: 0;
-    padding:0;
+    padding:1em;
     box-sizing: border-box;
     background-color: #E3D26F;
 }
@@ -21,7 +21,7 @@ nav ul{
    
 }
 div img{
-    max-width: 2fr;
+    max-width: 150px;
 }
 nav li{
     flex: 1 1 100%;

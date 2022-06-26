@@ -3,7 +3,7 @@
         
 *{
     margin: 0;
-    padding:0;
+    padding:1em;
     box-sizing: border-box;
     background-color: #E3D26F;
 } 
@@ -15,7 +15,7 @@ h1{font-family: 'Dosis', sans-serif;
     text-align: center;
 }
 div img{
-    width: max-content;
+    width: 300px;
 }
 
 nav ul{
