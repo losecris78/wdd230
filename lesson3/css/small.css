@@ -12,11 +12,16 @@ header, main, footer{
     margin: 1rem auto;
     padding: 100px;
 }
+/*.name{
+    display: inline-block;
+}*/
 div img{
-    max-width: 80%;
+    max-width: 40%;
+    float: inline-start;
 }
 
 h1{
+    
     font-family: 'Dosis', sans-serif;
     color:#984447;
     background-color:#d0e1e1 ;

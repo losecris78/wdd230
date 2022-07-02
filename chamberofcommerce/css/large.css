@@ -28,4 +28,18 @@ nav li{
     flex: 1 1 100%;
     text-decoration: none;
 }
+main{
+    display: grid;
+    grid-template-columns: repeat(5 1fr);
+}
+.center .hero{
+    grid-column: 2/4;
+    border: solid red 2px;
+}
+.left{
+    grid-column: 1/2;
+}
+.right{
+    grid-column: 4/5;
+}
 }
