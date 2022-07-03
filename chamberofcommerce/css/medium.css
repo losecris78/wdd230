@@ -1,39 +1,31 @@
-@media (min-width: 32.5em) and (max-width:64.5rem){  
-        
-*{
-    margin: 0;
-    padding:1em;
-    box-sizing: border-box;
-    background-color: #E3D26F;
-    max-width:700px;
-}
-header, main, footer{
-    display: flex;
-    flex-flow: column;
-    margin: .5rem auto;
-    padding: .3rem;
-  
-    
-}
-h1{
-    
-    color:#984447;
-    background-color:#d0e1e1 ;
-    padding: 1rem;
-    font-size: 50px;
-    text-align: center;
-}
-nav ul{
-    display:flex;
-    list-style-type: none;
-    overflow: hidden;
-   
-}
-div img{
-    max-width: 150px;
-}
-nav li{
-    flex: 1 1 100%;
-    text-decoration: none;
-}
+@media (min-width: 32.5em) {  
+    *{
+        padding: .3em;
+        background-color: #E3D26F;
+    width: 100%;
+    }
+    .logo{
+        width: 200px;
+    }
+    div h1{
+        font-size: 40px;
+    }
+    #social_media{
+        width:30%;
+    }
+    div picture img{
+        justify-items: center;
+        margin:0 auto;
+    }
+    div picture img:hover {
+        box-shadow: 0 0 35px #333;
+    }
+    .hamburgerBtn{
+        display:none;
+
+    }
+    footer div image{
+        width: 200px;
+
+    }
 }

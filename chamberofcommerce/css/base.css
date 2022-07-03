@@ -1,11 +1,11 @@
-@media only screen and (max-width:24.5rem){
+@media only screen and (max-width:32rem){
     
 *{
     margin: 0;
-    padding:0.3rem;
+    padding:0.2rem;
     box-sizing: border-box;
     background-color: #E3D26F;
-    width: 100%;
+    width: 90%;
 }
 
 header, main, footer{
@@ -14,14 +14,10 @@ header, main, footer{
     margin: .5rem auto;
     /*padding: .3rem;*/
   
-    
-}
-/*div img{
-    max-width: 100px;*/
 }
 header{
     background-color:#d0e1e1 ;
-    border: 2px solid gray;
+    /*border: 1px solid gray;*/
 
 }
 
@@ -46,6 +42,14 @@ header .clearfix{
     margin: 0 auto;
 
 }
+.grid_container.one{
+    width:100%
+}
+.one{
+    display:block;
+    width: 96%;
+    margin:auto;
+}
 .clearfix{
     overflow: auto;
 }
@@ -54,6 +58,9 @@ h2,h3{
     font-size: 15px;
     margin: 15px;
     padding: 1rem;
+    font-weight: bold;
+    color: #984447;
+    text-shadow: #354F52 2px;
     
 }
 p{
@@ -62,6 +69,12 @@ p{
   padding: .3rem;
   font-size: 12px;
 }
+figcaption{
+    padding:1.3rem;
+    margin:-10px 0 auto;
+    font-size: 9px;
+    font-style: italic;
+}
 nav div{
     flex:1 1 auto;
 }
@@ -69,7 +82,7 @@ nav ul{
     display:flex;
     flex-direction: column;
     list-style-type: none;
-    overflow: hidden;
+    overflow: auto;
    
 }
 nav a:hover{
@@ -82,7 +95,7 @@ nav li{
     
 }
 footer div img{
-    width:80%;
+    width:30%;
     justify-items: center;
     border: 2px solid black;
     padding: 0;
@@ -97,14 +110,22 @@ div ul {
     list-style-type: none;
 
 }
+div picture img {
+    margin-bottom:0 1rem auto;
+    border: 1.5px solid black;
+    
+}
+div picture img:hover {
+    box-shadow: 0 0 35px #333;
+}
 #social_media{
     display: flexbox;
     flex-direction: row;
 
 }
-#social_media img{
+#social_media img {
     display: inline;
-    width:50%;
+    width:20%;
     margin: 5px;
 }
 #colors{
@@ -126,4 +147,5 @@ background-color: #354F52;
 #accent2{
 grid-column:4;
 background-color: #984447;
+}
 }
