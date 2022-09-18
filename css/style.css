@@ -16,6 +16,7 @@ body{
     font-family: 'DM Serif Display', serif;
     display: grid;
     grid-template-columns: 50% 50%;
+   
 
 }
 .block image{
@@ -39,4 +40,9 @@ align-items: center;
     border:solid black 2px;
     border-radius: 5px;
     padding: 3rem;
-    font-family: 'Nunito', sans-serif;}
+    font-family: 'Nunito', sans-serif;
+}
+#center ul{
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+}
