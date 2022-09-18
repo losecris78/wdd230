@@ -1,0 +1,42 @@
+body{
+    width:70%;
+    padding: 10%;
+}
+.block,.end {
+    background-color: rgb(20, 120, 151);
+    color: rgb(239, 231, 194);
+    margin: 15px;
+    box-shadow: 5px 10px 15px 20px #777;
+    
+}
+.block{
+    border:solid black 4px;
+    border-radius:7px ;
+    padding:3rem;
+    font-family: 'DM Serif Display', serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+.block image{
+    grid-column: 1;
+    width: 50%;
+    margin-right:3px;
+
+}
+.block h1{
+grid-column: 2;
+align-content: center;
+align-items: center;
+}
+#center{
+    padding:3rem;
+    margin:10px 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.end{
+    border:solid black 2px;
+    border-radius: 5px;
+    padding: 3rem;
+    font-family: 'Nunito', sans-serif;}
