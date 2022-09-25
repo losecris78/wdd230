@@ -1,0 +1,52 @@
+@media only screen and (max-width:700px){
+    div{
+        grid-template-columns: 2;
+        grid-template-rows: 1fr 100px 200px 1fr 100px 200px;
+
+    }
+    
+    #come{
+        grid-column: 2;
+        grid-row: 1;
+
+    }
+    #dell{
+        grid-column: 1;
+        grid-row:4/5;
+    }
+    #composer{
+        grid-column: 1;
+        grid-row: 2;
+        justify-content: center;
+        
+        }
+    #missionary{
+            grid-column: 2;
+            grid-row: 2;
+            justify-content: center;
+        
+        }
+    #computer{
+        
+            grid-column: 2;
+            grid-row: 4;
+            justify-content: center;
+            
+    }
+    #rep{
+        grid-column: 1;
+        grid-row: 3;
+
+    }
+    #hick{
+        grid-column: 2;
+        grid-row: 3;
+
+    }
+    #white{
+        grid-column: 2;
+        grid-row:5;
+        margin-top: -250px;
+
+    }
+}

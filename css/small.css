@@ -1,6 +1,6 @@
 body{
-    width:70%;
-    padding: 10%;
+    width:90%;
+    padding: 2%;
 }
 .block,.end {
     background-color: rgb(20, 120, 151);
@@ -12,23 +12,23 @@ body{
 .block{
     border:solid black 4px;
     border-radius:7px ;
-    padding:3rem;
+    padding:1rem;
     font-family: 'DM Serif Display', serif;
-    display: grid;
-    grid-template-columns: 50% 50%;
+    width:90%;
+    
    
 
 }
 .block image{
-    grid-column: 1;
-    width: 50%;
+    
+    width: 25vw;
     margin-right:3px;
 
 }
 .block h1{
-grid-column: 2;
-align-content: center;
-align-items: center;
+font-size: 12px;
+padding: 1em;
+text-align: center;
 }
 #center{
     padding:3rem;

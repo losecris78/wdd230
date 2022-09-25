@@ -1,0 +1,75 @@
+@media only screen and (max-width:350px){
+    div{
+        grid-template-columns: 1;
+        grid-template-rows: 1fr 100px 400px 1fr 100px 600px 1fr 100px 400px;
+
+    }
+    #mar{
+    
+    grid-row:1;
+    justify-content: center;
+    align-content: center;
+    }
+    #come{
+    grid-column: 1; 
+    grid-row: 4;
+    margin:1em;
+    justify-content: center;
+    align-content: center;
+
+    }
+    #dell{
+    grid-column: 1;
+    grid-row:7;
+    margin:1em;
+    justify-content: center;
+    align-content: center;
+    }
+    #composer{
+    
+    grid-row: 2;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    margin:1em;
+        }
+    #missionary{
+    grid-column:1;
+    grid-row: 5;
+    justify-content: center;
+    align-content: center;
+    justify-items:center;
+    margin: 1em;
+        }
+    #computer{
+    grid-column:1;    
+    grid-row: 8;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    margin:1em;
+    }
+    #rep{
+        
+    grid-row: 3;
+    justify-content: center;
+    align-content: center;
+
+    }
+    #hick{
+    grid-column:1;
+    grid-row: 6;
+    justify-content: center;
+    align-content: center;
+    margin:1em;
+
+    }
+    #white{
+    grid-column:1;    
+    grid-row: 9;
+    margin:1em;
+    justify-content: center;
+    align-content: center;
+
+    }
+}
