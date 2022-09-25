@@ -1,29 +1,40 @@
 @media only screen and (max-width:350px){
+    *{
+    margin: 5px;
+    padding:10px;
+    box-sizing: border-box;}
     div{
+        display: grid;
         grid-template-columns: 1;
         grid-template-rows: 1fr 100px 400px 1fr 100px 600px 1fr 100px 400px;
 
     }
+    header, main, footer{
+        width:95vw;
+        margin: 10px auto;
+        padding: .5em;}
     #mar{
     
     grid-row:1;
-    justify-content: center;
-    align-content: center;
+    
+    width: 350px;
     }
     #come{
     grid-column: 1; 
     grid-row: 4;
-    margin:1em;
+    margin:.3em;
     justify-content: center;
     align-content: center;
+    width: 350px;
 
     }
     #dell{
     grid-column: 1;
     grid-row:7;
-    margin:1em;
+    margin:.3em;
     justify-content: center;
     align-content: center;
+    width: 350px;
     }
     #composer{
     
@@ -31,7 +42,7 @@
     justify-items: center;
     justify-content: center;
     align-content: center;
-    margin:1em;
+    margin:.3em;
         }
     #missionary{
     grid-column:1;
@@ -39,7 +50,7 @@
     justify-content: center;
     align-content: center;
     justify-items:center;
-    margin: 1em;
+    margin: .3em;
         }
     #computer{
     grid-column:1;    
@@ -47,13 +58,14 @@
     justify-content: center;
     align-content: center;
     justify-items: center;
-    margin:1em;
+    margin:.3em;
     }
     #rep{
         
     grid-row: 3;
     justify-content: center;
     align-content: center;
+    margin:.3em;
 
     }
     #hick{
@@ -61,13 +73,13 @@
     grid-row: 6;
     justify-content: center;
     align-content: center;
-    margin:1em;
+    margin:.3em;
 
     }
     #white{
     grid-column:1;    
     grid-row: 9;
-    margin:1em;
+    margin:.3em;
     justify-content: center;
     align-content: center;
 

@@ -1,25 +1,28 @@
 *{
-    margin: 0;
+    margin: 5px;
     padding:10px;
     box-sizing: border-box;
     background-color: rgb(233, 224, 210);
 }
 header, main, footer{
-    max-width: 960px;
-    margin: 1rem auto;
+    width:1040px;
+    margin: 10px auto;
+    padding: 20px;
 }
- body{
+ /*body{
      box-sizing: border-box;
- }
+ }*/
 header h1{
     background-color: rgb(28, 27, 27);
-    margin-bottom: 1em;
+    margin-bottom: 15px;
     font-family: 'Bangers', cursive;
     justify-items: center;
-    padding:1em;
+    align-items: center;
+    align-content: space-between;
+    padding:20px;
     text-align: center;
     color:antiquewhite;
-    font-size: 60px;
+    font-size: 50px;
 
 }
 
@@ -27,7 +30,7 @@ header h1{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 1fr 100px 1fr ;
-    width:fit-content;
+    width:45%;
    
     align-content: center;
 }
@@ -36,6 +39,7 @@ h3{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     font-size: medium;
+    padding: 7px;
 }
 p{
     font-family: 'Nanum Myeongjo', serif;
@@ -43,28 +47,45 @@ p{
 }
 #mar{
 grid-column: 1;
-grid-row: 2;
+grid-row: 1;
 justify-items: center;
 align-items: center;
 justify-content: center;
 align-content: center;
 margin: auto;
+width: 350px;
+
 
 }
 #come{
     grid-column: 2;
-    grid-row: 2;
+    grid-row: 1;
     justify-content: center;
     align-content: center;
     margin: auto;
+    width: 350px;
 }
 #dell{
 
     grid-column: 3;
-    grid-row: 2;
+    grid-row: 1;
     justify-content: center;
     align-content: center;
     margin: auto;
+    width: 350px;
+}
+#rep{
+    grid-row:3;
+    grid-column: 1;
+
+}
+#hick{
+    grid-row:3;
+    grid-column: 2;
+}
+#white{
+    grid-row:3;
+    grid-column: 3;
 }
 footer{
     border: 3px ridge black;
