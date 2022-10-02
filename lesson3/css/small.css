@@ -1,31 +1,76 @@
 @media only screen and (min-width:300px){
+    *{
+        padding:1em;
+        background-color:#508CA4 ;
+        margin: 0;
+    }
+    header, footer, nav {
+    width:90vw ;
+    background-color: #E7DFC6;
+    color:#646536;
+    border-radius: 2px solid #646536;
+    font-size: 24px;
+    font-weight: 500;
+    }
    nav{
     display: flex;
-    flex: block;
+    width:max-content;
+    background-color: #E7DFC6;
+    padding: 1em;
    } 
+   div{
+    background-color: #E7DFC6;
+   }
+   nav ul li{
+    flex-direction: column;
+    background-color: #E7DFC6;
+    
+   }
+   main div{
+    width: inherit;
+   }
+   main div img{
+    width:15.5em;
+   }
+   ul{
+    list-style: none;
+   }
    header h1{
-    background-color: rgb(28, 27, 27);
+    background-color:#E7DFC6;
     margin-bottom: 15px;
-    font-family: 'Bangers', cursive;
+    font-family: 'DM Serif Display', serif;
     justify-items: center;
     align-items: center;
     align-content: space-between;
     padding:20px;
     text-align: center;
-    color:antiquewhite;
-    font-size: 50px;
+    font-size: 45px;
    }
-   h3{
+   h2,h3, #headings{
     justify-content: center;
     text-align: center;
-    font-family: 'Patrick Hand', cursive;
-    font-size: medium;
-    padding: 7px;
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+    padding: 20px;
+}
+#headings{
+    font-family: 'DM Serif Display', serif;
+    font-size: 32px;
+
 }
 p{
-    font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nunito', sans-serif;
+    font-size:20px;
     padding: 1em;
+    color:black;
+    font-weight: 400;
 }
+footer div span{
+    background-color: #E7DFC6;
+    padding:1em;
 
+}
+/*font-family: 'DM Serif Display', serif;
+font-family: 'Nunito', sans-serif;*/
 
 }
