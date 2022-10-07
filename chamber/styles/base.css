@@ -1,0 +1,96 @@
+*{
+    box-sizing: border-box;
+}
+header #maintop {
+    background-color:#777;
+    border: 2px dotted black;
+    padding: 2vw;
+}
+header div #datespan{
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid black;
+    padding: .3 2vw;
+    /*position: relative;
+    margin-left: 20%;
+    margin-top: -4.1rem;*/
+    
+}
+header div div #logo{
+    display:inline;
+    border: 2px solid black;
+    width: 20%;
+    
+}
+header div div h1{
+    float: right;
+    font-family: 'DM Serif Display', serif;
+    font-size: 16px;
+    text-align:left;
+}
+.clearfix{
+    overflow:auto;
+}
+nav #hamb_button{
+    border: none;
+    background-color:transparent;
+    margin: .2rem 0;
+}
+#hamb_button span:nth-child(1){
+    display: block;
+}
+#hamb_button span:nth-child(2){
+    display: none;
+}
+#hamb_button.open span:nth-child(1){
+    display: none;
+}
+#hamb_button.open span:nth-child(2){
+    display: block;
+}
+nav ul{
+    display:none;
+}
+nav ul.open{
+    display:block;
+    list-style-type: none;
+    padding: 0;
+    margin: 1vw;
+}
+nav ul li #insta,nav ul li#twitter{
+    width: 20px;
+
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+nav ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.3);
+}
+footer{
+    padding: 2vw;
+    background-color: aquamarine;
+    border:2px solid #777;
+}
+#hero, #event, #weather, #news_release,#spotlights {
+background-color: #777;
+border: 2px solid rgba(0, 0, 0, 0.5);
+height: 500px;
+padding:2vw;
+margin: .5rem .3rem;
+}
+#spot1, #spot2{
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    height: 50%;
+    padding: .3rem;
+}
+#call{
+    position: absolute;
+    margin-top: 350px;
+    background-color: orangered;
+    border-radius: 8px solid orange;
+    width: 250px;
+    height:100px;
+    padding: .5rem;
+}
