@@ -1,13 +1,15 @@
 *{
     box-sizing: border-box;
+    margin:0 .3rem;
+    background-color:#e7dfc6;
 }
 header #maintop {
-    background-color:#777;
+    background-color:#e7dfc6;
     border: 2px dotted black;
     padding: 2vw;
 }
 header div #datespan{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(197, 34, 48,0.09);
     border: 2px solid black;
     padding: .3 2vw;
     /*position: relative;
@@ -27,6 +29,7 @@ header div div h1{
     font-size: 16px;
     text-align:left;
 }
+
 .clearfix{
     overflow:auto;
 }
@@ -56,8 +59,8 @@ nav ul.open{
     padding: 0;
     margin: 1vw;
 }
-nav ul li #insta,nav ul li#twitter{
-    width: 20px;
+nav ul li img #insta,nav ul li img #twitter{
+    width: 17vw;
 
 }
 nav ul li a{
@@ -70,27 +73,45 @@ nav ul li a:hover{
 }
 footer{
     padding: 2vw;
-    background-color: aquamarine;
+    background-color: #e7dfc6;
     border:2px solid #777;
+    width: auto;
 }
-#hero, #event, #weather, #news_release,#spotlights {
+footer div.end{
+    background-color:rgba(197, 34, 48,0.09);
+    border-radius: 1.5px solid #333;
+    padding: 2rem;
+}
+#hero, #event, #weather, #news_release,#spotlights,#join {
 background-color: #777;
 border: 2px solid rgba(0, 0, 0, 0.5);
 height: 500px;
 padding:2vw;
 margin: .5rem .3rem;
 }
-#spot1, #spot2{
+.grid #join{
+    display: none;
+}
+#spotlights{
+    display: block;
+}
+#spot1, #spot2,#spot3{
     border: 2px solid rgba(0, 0, 0, 0.5);
     height: 50%;
     padding: .3rem;
 }
+#spot3{
+    display:none;
+}
 #call{
     position: absolute;
     margin-top: 350px;
-    background-color: orangered;
+    background-color: #f05d5e;
     border-radius: 8px solid orange;
     width: 250px;
     height:100px;
     padding: .5rem;
+}
+.clearfix #logo{
+    width:98vw;
 }
