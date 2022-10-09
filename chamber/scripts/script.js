@@ -7,11 +7,11 @@ document.querySelector("#year1").innerText = year;
 //document.querySelector("#update").innerHTML= date;
 document.querySelector("#todayis").innerHTML=dateFormat;
 function toggleMenu(){
-    document.getElementById("pNav").classList.toggle("open");
+	document.getElementById("pNav").classList.toggle("open");
+	document.getElementById("hamb_button").classList.toggle("open");
 }
-let bread= document.getElementById("hamb_button")
+let bread= document.getElementById("hamb_button");
 bread.onclick= toggleMenu;
-document.getElementById("hamb_button").classList.toggle("open");
 
 /*const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 

@@ -31,12 +31,12 @@ header div div h1{
         
     }
     .grid #hero{
-        grid-column:2;
+        grid-column:1;
         grid-row:1;
         display:block;
         width: 2fr;
         height: 600px;
-        float:right;
+        float: left;
     }
     .grid #news_release{
         grid-row:3;
@@ -68,9 +68,9 @@ header div div h1{
     }
     .grid #event{
         grid-row:1;
-        grid-column:1/2;
+        grid-column:1;
         height: 350px;
-        width:.8fr;
+        width:350px;
     
     }
     .grid #weather{
