@@ -8,7 +8,8 @@
     header div div h1{
         font-size: 58px;
     }
-    header div #event{
+    header div #announcement{
+        
         font-size: 30px;
     }
     #todayis{
@@ -70,34 +71,33 @@ nav ul li a{
         grid-row: 1/6;
         grid-column:4/5;
         width:.8fr;
-        overflow:auto;
+        
     }
     #spot3{
         display:block;
         grid-column: 4/5;
         grid-row: 1;
         height: 300px;
-        overflow:auto;
+        
     }
     #spot1{
         grid-row:3;
         grid-column:4/5;
         height: 300px;
-        overflow:auto;
+        
     }
     #spot2{
         grid-row:2;
         grid-column: 4/5;
         height: 300px;
-        overflow:auto;
+        
         
     }
     .grid #join{
         display: block;
         grid-row: 4;
         grid-column: 1/2;
-        width: 200px;
-        overflow:auto;
+        
 
     }
     .grid #event{
@@ -107,7 +107,7 @@ nav ul li a{
         height: 350px;
         width:200px;
         padding: .3rem;
-        overflow:auto;
+        
     
     }
     .grid #weather{
@@ -116,7 +116,7 @@ nav ul li a{
         width: 200px;
         height: 300px;
         padding: .3rem;
-        overflow:auto;
+       
     }
     .clearfix #logo{
         width:28vw;
