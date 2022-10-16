@@ -17,6 +17,9 @@
 </head>
 <body>
     <header>
+        <div>
+            <span id="event"></span>
+        </div>
         <div id="maintop">
             <div>
                 <img id="logo" src="images/logocuritiba.png" alt="Logo Curitiba Chamber of Commerce">
@@ -28,17 +31,21 @@
                 <p>
                     Current date:<span id="todayis"></span>
                 </p>
+        
             </div>
             <nav>
                 <button id="hamb_button"><span>&equiv;</span><span>x</span></button>
                 <ul id="pNav">
-                    <li><a href="http://">Discover</li>
-                    <li><a href="http://">Directory</a></li>
-                    <li><a href="http://">Join</a></li>
-                    <li><a href="http://">Contact</a></li>
-                    <li id="insta"><img src="images/instagram_icon.webp" alt="Instagram icon"></li>
-                    <li id="twitter"><img src="images/twitter_logo.webp" alt="Twitter icon"></li>
+                    <li class="hov"><a href="http://">Discover</a></li>
+                    <li class="hov"><a href="http://">Directory</a></li>
+                    <li class="hov"><a href="http://">Join</a></li>
+                    <li class="hov"><a href="http://">Contact</a></li>
                 </ul>
+                <div>
+                    <img id="insta" src="images/instagram_icon.webp" alt="Instagram icon"></li>
+                    <img id="twitter" src="images/twitter_logo.webp" alt="Twitter icon"></li>
+
+                </div>
 
             </nav>
         </div>
@@ -46,17 +53,46 @@
     </header>
     <main>
         <div class="grid">
-            <div id="hero">Hero
-                <p id="call">Call to Action</p>
+            <div id="hero">
+                <img class="clearfix" src="images/botanico_large.webp" alt="Aerial picture of the Botanical Garden in Curitiba">
+                <p id="call">Come join us!</p>
             </div>
-            <div id="event">Events</div>
-            <div id="weather">Weather</div>
-            <div id="news_release">News</div>
-            <div id="join">Join</div>
+            <div id="event">
+                <h2>Try our new Conference Center</h2>
+                <p>Since April 2022 our Conference Center if back on track, we invite you to organize your Conferences and Congresses using our facilities.</p>
+
+            </div>
+            <div id="weather">
+                <h2>The weather today is</h2>
+                <span> 18°C</span>
+                <p>High nubosity, 80% rain Humidity:92% </p>
+
+            </div>
+            <div id="news_release">
+                <h2>Latest news.</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta perferendis expedita ab nostrum sunt in consequatur assumenda. Omnis distinctio, minima nemo hic alias praesentium amet quisquam tempora, ea fugit id!</p>
+
+            </div>
+            <div id="join">
+                <button type="button" class="block">Come join us!</button>
+                <p>Discover how to join the Curitiba Chamber of Commerce, and widen your business opportunities.</p>
+            </div>
             <section id="spotlights">
-                <div id="spot1">Spotlight1</div>
-                <div id="spot2">Spotlight2</div>
-                <div id="spot3">Spotlight3</div>
+                <div id="spot1">
+                    <h3>Di Bambii Catering Services</h3>
+                    <p></p>
+
+                </div>
+                <div id="spot2">
+                    <h3>Bigme idiomas particulares</h3>
+                    <p></p>
+
+                </div>
+                <div id="spot3">
+                    <h3>Dra. Andrea Rocha</h3>
+                    <p>Orto Clean and Botox</p>
+
+                </div>
             </section>
 
         </div>

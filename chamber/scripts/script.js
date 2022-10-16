@@ -1,6 +1,8 @@
 let date = new Date;
 let year = date.getFullYear();
 let dateFormat = new Intl.DateTimeFormat("en-US",{dateStyle:"full"}).format(date);
+let day = date.getDay()
+console.log(day);
 document.querySelector("#updated").textContent = `Updated: ${document.lastModified}`;
 
 document.querySelector("#year1").innerText = year;
@@ -13,6 +15,10 @@ function toggleMenu(){
 let bread= document.getElementById("hamb_button");
 bread.onclick= toggleMenu;
 
+
+if (day === 1) {document.getElementById("event").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."};
+if (day === 2) {document.getElementById("event").innerHTML ="🤝🏼 Come join us for the chamber meet and greet tomorrow,Wednesday at 7:00 p.m"};
+/*if (day === 6) {document.getElementById("event").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."};*/
 /*const datefieldUK = document.querySelector("aside"); // for european/family history format with day first.
 
 // derive the current date using a date object
