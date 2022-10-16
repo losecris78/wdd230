@@ -2,7 +2,7 @@
     *{
         box-sizing: border-box;
         margin: 0 .3rem;
-        width:940px;
+        max-width: 1040px;
         padding: .5rem;
     }
     header div div h1{
@@ -26,7 +26,7 @@ nav ul {
 }
 nav ul li{
     font-size: 32px;
-    overflow:auto;
+    /*overflow:auto;*/
 }
 nav ul li a{
     border: none;
@@ -36,13 +36,7 @@ nav ul li a{
     background-color: rgba(27, 132, 212, 0.7);
 }
 
-header div div h1{
-    
-    font-size: 52px;
-    text-align:left;
-    margin-left: -2rem;
-}
-    .grid{
+.grid{
         display:grid;
         grid-template-columns: repeat(4 1fr);
         grid-template-rows: 300px auto;
@@ -58,6 +52,13 @@ header div div h1{
         display:block;
         width: 100%;
         
+    }
+    #call{
+        margin-top: -25px;
+        font-size: 40px;
+        width: fit-content;
+        text-align: justify;
+        text-justify: initial;
     }
     .grid #news_release{
         grid-row:4;
@@ -81,7 +82,7 @@ header div div h1{
     #spot1{
         grid-row:3;
         grid-column:4/5;
-        height: 450px;
+        height: 300px;
         overflow:auto;
     }
     #spot2{
@@ -93,9 +94,9 @@ header div div h1{
     }
     .grid #join{
         display: block;
-        grid-row: 3;
+        grid-row: 4;
         grid-column: 1/2;
-        width: 350px;
+        width: 200px;
         overflow:auto;
 
     }
@@ -104,7 +105,7 @@ header div div h1{
         grid-row:1;
         grid-column:1/2;
         height: 350px;
-        width:350px;
+        width:200px;
         padding: .3rem;
         overflow:auto;
     
@@ -112,7 +113,7 @@ header div div h1{
     .grid #weather{
         grid-column:1/2;
         grid-row:2;
-        width: 350px;
+        width: 200px;
         height: 300px;
         padding: .3rem;
         overflow:auto;

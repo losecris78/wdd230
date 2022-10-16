@@ -64,7 +64,7 @@ nav #hamb_button{
 }
 #insta, #twitter{
     display: inline;
-    width:10vw;
+    width:3rem;
     box-shadow: 3px #777;
     border: 2px solid #333;
 }
