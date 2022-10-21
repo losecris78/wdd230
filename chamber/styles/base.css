@@ -1,9 +1,11 @@
+/*General display*/
 *{
     box-sizing: border-box;
     margin:1rem .3rem;
     background-color:#646536;
     width:320px;
 }
+/*header*/
 header #maintop {
     background-color:#646536;
    
@@ -92,29 +94,16 @@ nav ul li a{
 
 }
 .hov:hover{
-    background-color: rgba(27, 132, 212, 0.7);
+    background-color: #e9f1f7;
 }
-
-footer{
-    padding:.3rem;
-    margin: 0 auto;
-    background-color: #646536;
-    border:2px solid #777;
+/*main*/
+#event, #weather, #news_release,#spotlights,#join {
+    
+    border: 2px solid rgba(0, 0, 0, 0.5);
     width: fit-content;
     
-}
-footer div.end{
-    background-color:rgba(197, 34, 48,0.09);
-    border-radius: 1.5px solid #333;
-    padding: 2rem;
-}
-#event, #weather, #news_release,#spotlights,#join {
-
-border: 2px solid rgba(0, 0, 0, 0.5);
-width: fit-content;
-
-padding:2vw;
-margin: .5rem .3rem;
+    padding:2vw;
+    margin: .5rem .3rem;
 }
 #hero{
     
@@ -158,4 +147,18 @@ margin: .5rem .3rem;
 }
 .clearfix #logo{
     width:50%;
+}
+/*footer*/
+footer{
+    padding:.3rem;
+    margin: 0 auto;
+    background-color: #646536;
+    border:2px solid #777;
+    width: fit-content;
+    
+}
+footer div.end{
+    background-color:rgba(197, 34, 48,0.09);
+    border-radius: 1.5px solid #333;
+    padding: 2rem;
 }

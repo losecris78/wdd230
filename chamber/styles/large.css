@@ -2,41 +2,55 @@
     *{
         box-sizing: border-box;
         margin: 0 .3rem;
-        max-width: 1040px;
-        padding: .5rem;
+        width: 100%;
+        padding: .2rem;
     }
+   
+    /*header*/
     header div div h1{
-        font-size: 58px;
+        font-size: 5rem;
+        display: inline;
     }
     header div #announcement{
         
         font-size: 30px;
     }
-    #todayis{
-        font-size: 22px;
+    header #maintop div{
+        display:flex;
+        flex-direction: row;
     }
-    nav #hamb_button{
-        display:none;
+    header #maintop #logo{
+        
+        width: 25%;
+
+    }
+    header #datespan p,#todayis{
+        font-size: 22px;
+        background-color: #e7dfc6;
+        width:max-content;
+       
+    }
+
+    /*navigation displays*/
+nav #hamb_button{
+    display:none;
 }
 nav ul {
     display:flex;
     flex-direction: row;
     list-style-type: none;
     flex:1 1 100%;
-    
 }
-nav ul li{
-    font-size: 32px;
-    /*overflow:auto;*/
-}
+
 nav ul li a{
+   text-align: center;
+    font-size: 2.5rem;
+    color:black;
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
-.hov:hover{
-    background-color: rgba(27, 132, 212, 0.7);
-}
 
+    /*main*/
 .grid{
         display:grid;
         grid-template-columns: repeat(4 1fr);
