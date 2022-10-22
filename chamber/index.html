@@ -54,7 +54,12 @@
     <main>
         <div class="grid">
             <div id="hero">
-                <img class="clearfix" src="images/botanico_large.webp" alt="Aerial picture of the Botanical Garden in Curitiba">
+                <picture>
+                    <source media="(min-width:900px)" srcset="images/image900.webp" type="image/webp">
+                    <source media="(min-width:600px)" srcset="images/image600.webp" type="image/webp">
+                    <source srcset="images/image200.webp" type="image/webp">
+                    <img src="images/imagejpg.jpg" alt="Hero image with different views according to viewport">
+                </picture>
                 <p id="call">Come join us!</p>
             </div>
             <div id="event">
@@ -64,7 +69,10 @@
             </div>
             <div id="weather">
                 <h2>The weather today is</h2>
-                <span> 18°C</span>
+                <span id="temp"> 46</span>°F
+                Wind Speed<span id="speed"> 5</span>MpH
+                <img src="images/weather-few-clouds.svg" alt="Weather image of the day">
+                <span id="chill"></span>°F
                 <p>High nubosity, 80% rain Humidity:92% </p>
 
             </div>
@@ -99,7 +107,7 @@
 
     </main>
     <footer>
-        <div class="clearfix">
+        <div>
             <img  id="logo" src="images/logocuritiba.webp" alt="Logo Curitiba Chamber of Commerce">
             <h2>
                 Curitiba Chamber of Commerce
@@ -117,6 +125,7 @@
 
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>
