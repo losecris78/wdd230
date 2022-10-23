@@ -8,9 +8,12 @@
 }
    
     /*header*/
+   
     header div div h1{
         font-size: 5rem;
         display: inline;
+        margin-top: 3em;
+        
     }
     header div #announcement{
     font-size: 30px;
