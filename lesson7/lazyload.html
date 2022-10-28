@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This page shows how to lazy load five simple placeholder images replacing them with the required ones">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Lazy loading of images</title>
+</head>
+<body>
+    <header>
+<div>
+    <h1>Lazy loading of images</h1>
+</div>
+    </header>
+    <main>
+        <picture>
+            <img src="http://placehold.jp/959697/ffffff/300x400.png?text=placeholder%20300%20x%20400&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23666666)%2C%20to(%23cccccc))%22%7D" alt="Placeholder 300x400" data-src="images/bridge.jpg">
+        </picture>
+        <picture>
+            <img src="http://placehold.jp/959697/ffffff/300x400.png?text=placeholder%20300%20x%20400&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23666666)%2C%20to(%23cccccc))%22%7D" alt="Placeholder 300x400" data-src="images/city.jpg">
+        </picture>
+        <picture>
+            <img src="http://placehold.jp/959697/ffffff/300x400.png?text=placeholder%20300%20x%20400&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23666666)%2C%20to(%23cccccc))%22%7D" alt="Placeholder 300x400" data-src="images/snow.jpg">
+        </picture>
+        <picture>
+            <img src="http://placehold.jp/959697/ffffff/300x400.png?text=placeholder%20300%20x%20400&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23666666)%2C%20to(%23cccccc))%22%7D" alt="Placeholder 300x400" data-src="images/skycrapper.jpg">
+        </picture>
+        <picture>
+            <img src="http://placehold.jp/959697/ffffff/300x400.png?text=placeholder%20300%20x%20400&css=%7B%22border-radius%22%3A%2215px%22%2C%22background%22%3A%22%20-webkit-gradient(linear%2C%20left%20top%2C%20left%20bottom%2C%20from(%23666666)%2C%20to(%23cccccc))%22%7D" alt="Placeholder 300x400" data-src="images/scate.jpg">
+        </picture>
+
+    </main>
+    <footer>
+        
+    </footer>
+    <script src="js/lazy.js"></script>
+</body>
+</html>
