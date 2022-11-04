@@ -29,22 +29,29 @@ if (day === 2) {document.getElementById("announcement").innerHTML ="🤝🏼 Com
 
 // Local Storage coding
 
-const todayDisplay = document.querySelector(".visitor");
-const visitsDisplay = document.querySelector("#numberVisits");
-
+const todayDisplay = (document.querySelector(".visitor"));
+const visitsDisplay = (document.querySelector("#numberVisits"));
+let differenceInDays = (document.querySelector("#timeLapse"));
 // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls"));
-
+let lastVisitDate = Number(window.localStorage.getItem("visited"))
 // determine if this is the first visit or display the number of visits.
 if (numVisits !== 0) {
 	visitsDisplay.textContent = numVisits;
 } else {
 	visitsDisplay.textContent = `This is your first visit!`;
 }
-
+function difference(a,b){
+	return a - b;
+}
+differenceInDays = round.difference(todayDisplay,lastVisitDate)
 // increment the number of visits.
 numVisits++;
+lastVisitDate++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
+localStorage.setItem("visited", Date.now());
+localStorage.setItem("timelapse", lastVisitTime);
+
 // show todays date.
 todayDisplay.textContent = Date.now();
