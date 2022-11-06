@@ -235,3 +235,17 @@ main div h3#silver{
 main div h3#gold{
     color:goldenrod;
 }
+
+/*-------------------------Thank you-------------------------*/
+main h1{
+    font-size: 40px;
+
+}
+main div{
+    background-color:#f05d5e ;
+    font-size: 28px;
+
+}
+main div p{
+
+}

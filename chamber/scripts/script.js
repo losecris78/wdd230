@@ -58,3 +58,8 @@ localStorage.setItem("timelapse", lastVisitTime);
 
 // show todays date.
 todayDisplay.textContent = Date.now();
+
+//Membership number
+
+let randNumb = 3252;
+document.querySelector("#memNumb").innerText= randNumb;
