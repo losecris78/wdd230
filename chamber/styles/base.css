@@ -226,11 +226,18 @@ fieldset input#joinButton{
     color:white;
    
 }
+main div#typesofmemb{
+    border:solid 2px #777;
+    border-radius: 10px;
+    box-shadow:0 0 5px #333;
+    margin: 1rem auto;
+    background-color: #21b18d29;
+}
 main div h3#bronze{
     color:orangered;
 }
 main div h3#silver{
-    color:#777;
+    color:#333;
 }
 main div h3#gold{
     color:goldenrod;
@@ -244,8 +251,5 @@ main h1{
 main div#thanks{
     background-color:#f05d5e ;
     font-size: 28px;
-
-}
-main div p{
 
 }
