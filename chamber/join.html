@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Curitiba Chamber of Commerce</title>
+    <title>Join</title>
 </head>
 <body>
     <header>
@@ -36,9 +36,9 @@
             <nav>
                 <button id="hamb_button"><span>&equiv;</span><span>x</span></button>
                 <ul id="pNav">
+                    <li class="hov"><a href="index.html">Home</a></li>
                     <li class="hov"><a href="discover.html">Discover</a></li>
                     <li class="hov"><a href="http://">Directory</a></li>
-                    <li class="hov"><a href="join.html">Join</a></li>
                     <li class="hov"><a href="http://">Contact</a></li>
                 </ul>
                 <div>
@@ -52,59 +52,41 @@
 
     </header>
     <main>
-        <div class="grid">
-            <div id="hero">
-                <picture>
-                    <source media="(min-width:900px)" srcset="images/image900.webp" type="image/webp">
-                    <source media="(min-width:600px)" srcset="images/image600.webp" type="image/webp">
-                    <source srcset="images/image200.webp" type="image/webp">
-                    <img src="images/imagejpg.jpg" alt="Hero image with different views according to viewport">
-                </picture>
-                <p id="call">Come join us!</p>
-            </div>
-            <div id="event">
-                <h2>Try our new Conference Center</h2>
-                <p>Since April 2022 our Conference Center if back on track, we invite you to organize your Conferences and Congresses using our facilities.</p>
-
-            </div>
-            <div id="weather">
-                <h2>The weather today is</h2>
-                <span id="temp">40</span>°F
-                Wind Speed<span id="speed">5</span>MpH
-                <img src="images/weather-few-clouds.svg" alt="Weather image of the day">
-                Wind Chill: <span id="chill"></span>°F
-                <p>High nubosity, 80% rain Humidity:92% </p>
-
-            </div>
-            <div id="news_release">
-                <h2>Latest news.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta perferendis expedita ab nostrum sunt in consequatur assumenda. Omnis distinctio, minima nemo hic alias praesentium amet quisquam tempora, ea fugit id!</p>
-
-            </div>
-            <div id="join">
-                <button type="button" class="block">Come join us!</button>
-                <p>Discover how to join the Curitiba Chamber of Commerce, and widen your business opportunities.</p>
-            </div>
-            <section id="spotlights">
-                <div id="spot1">
-                    <h3>Di Bambii Catering Services</h3>
-                    <p></p>
-
-                </div>
-                <div id="spot2">
-                    <h3>Bigme idiomas particulares</h3>
-                    <p></p>
-
-                </div>
-                <div id="spot3">
-                    <h3>Dra. Andrea Rocha</h3>
-                    <p>Orto Clean and Botox</p>
-
-                </div>
-            </section>
-
+        <form method="get" action="thankyou.html" >
+            <fieldset>
+                
+                <label>First Name*<input class="textbox" type="text" name="fname" required></label>
+                <label>Last Name*<input class="textbox" type="text" name="lname" required></label>
+                <label>Business position title<input class="textbox" type="text" name="title" title="/[a-z]{7}/" pattern="/[a-z]{7}/"></label>
+                <label>email*<input class="textbox" type="email" name="email" required placeholder="example@example.com"></label>
+                <label>Cell phone*<input class="textbox" type="tel" name="phone" required></label>
+            </fieldset>
+            <fieldset>
+                <label>Business Name*<input class="textbox" type="text" name="busname" required></label>
+                <label>Non-profit Organization<input type="radio" name="membership" value="non-profit"></label>
+                <label>Bronze<input type="radio" name="membership" value="bronze"></label>
+                <label>Silver<input type="radio" name="membership" value="silver"></label>
+                <label>Gold<input type="radio" name="membership" value="gold"></label>
+            </fieldset>
+            
+            <fieldset class="lower">
+                <label>Business Description <input class="textbox" id="bdesc" type="text" name="description"> </label>
+                <input type="hidden" name="current_date" value="" id="datejoined">
+                <input id="joinButton" type="submit" value="Join the chamber" name="joinbutton"> 
+            </fieldset>
+            
+        </form>
+        <div>
+            <h3>Non-profit organizations</h3>
+            <p>Free inscription into the chamber directory, limited online advertisement.</p>
+            <h3 id="bronze">Bronze Membership</h3>
+            <p>$100 Inscription into the chamber directory, online exposure</p>
+            <h3 id="silver">Silver Membership</h3>
+            <p>$200 Inscription into the chamber directory, online exposure, promotion and assesment with business affairs</p>
+            <h3 id="gold">Gold Membership</h3>
+            <p>$350 Inscription into the chamber directory, highlighted online exposure, assesment with business affairs, use of installations and meeting rooms</p>
         </div>
-
+       
     </main>
     <footer>
         <div>
@@ -125,7 +107,6 @@
 
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>

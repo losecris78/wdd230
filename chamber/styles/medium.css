@@ -21,7 +21,7 @@
         width: 65%;
     }
     header div div h1{
-        font-size: 4rem;
+        font-size: 36px;
         text-align:center;
     }
     
@@ -98,5 +98,22 @@
 }
 .clearfix #logo{
     width:90vw;
+}
+/*---------join--------------------*/
+fieldset.lower{
+    display: flex;
+    flex-direction: row;
+}
+fieldset input#joinButton{
+    border-radius: 10px;
+    padding: .5rem;
+    margin:1.5rem auto;
+    width: 10rem;
+    height: 10rem;
+    background-color: #f05d5e;
+    border:none;
+    color:white;
+    align-items: center;
+    justify-content:center;
 }
 }

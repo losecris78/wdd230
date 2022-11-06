@@ -14,6 +14,9 @@ document.querySelector("#year1").innerText = year;
 //Date displayed on header//
 document.querySelector("#todayis").innerHTML=dateFormat;
 
+//Date displayed on form
+document.querySelector("#datejoined.value").innerHTML=date;
+
 //Toggle Menu for Hamburguer button//
 function toggleMenu(){
 	document.getElementById("pNav").classList.toggle("open");
