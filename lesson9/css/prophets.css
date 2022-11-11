@@ -1,0 +1,95 @@
+body{
+    margin: 0 1rem;
+    padding:0 1rem ;
+    font-family: 'Joan', serif;
+    width:max-content;
+}
+.cards{
+    display:block;
+    padding: .5em;
+    margin: 1em auto;
+    
+    
+    
+}
+header, footer{
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+    text-align:start;
+color:rgb(101,22,22)
+}
+main{
+    background-color: rgba(177, 189, 111, 0.363);
+    border: 1px solid black;
+    
+}
+img{
+
+    max-width: 10em;
+    margin: 1em auto;
+    border: 3px solid grey;
+    box-shadow: 1, 1, 1.3 rgb(39, 36, 36);
+      
+    
+}
+h2{
+    padding: .2rem;
+    margin: 1em .5em .2em .2em;
+    text-align:justify;
+    color: rgb(101,22,22);
+    font-size: 20px;
+}
+p{
+    width:350px;
+    padding: .2rem;
+    text-align: start;
+}
+@media (min-width: 34rem)  {
+    main{
+        width:max-content;
+        margin: 1rem;
+    }
+    h1{
+        font-size: 65px;
+        text-align: start;
+        padding: 1.5rem;
+    }
+    h2{
+        font-size: 30px;
+        }
+    .cards{
+        width:1fr;
+        padding: 2rem;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        justify-items: center;
+        padding: 1rem;
+    }
+    .cards img{
+        width:100%;
+        
+    }
+    p{
+        text-align: justify;
+    }
+   
+    }
+
+@media (min-width: 64rem)  {
+    
+    h1{
+        font-size: 85px;
+    }
+    .cards{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: min-content;
+        padding: 2rem;
+        
+        
+    }
+    
+}
