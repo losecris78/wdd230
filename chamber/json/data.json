@@ -1,0 +1,103 @@
+{
+    "members": [
+      {
+        "name": "Dra. Andrea Rocha",
+        "address": "Rua P.Anchieta 1691, Sala 509 Bigorrilho, Curitiba",
+        "phone": "4191862054",
+        "image":"images/andrea_icon.webp",
+        "url": "https://draandrearocha.com.br",
+        "color": "gold",
+        "type": "health"
+        
+      },
+      {
+        "name": "Bigme Idiomas Particulares",
+        "address": "Rua Marechal Deodoro 500, Sala 21 Centro, Curitiba",
+        "phone": "41992078490",
+        "image":"images/bigme_icon.webp",
+        "url": "https://bigme.com.br",
+        "color": "silver",
+        "type": "education"
+        
+      },
+      {
+        "name": "DUB",
+        "address": "Rua José Isidoro Biazetto 1388, Curitiba",
+        "phone": "41997595878",
+        "image":"images/dub_icon.jpg",
+        "url": "http://magicdub.com.br",
+        "color": "bronze",
+        "type": "food"
+        
+      },
+      {
+        "name": "Estofaria Pineda",
+        "address": "Rua João Dembinski 5328, Campo Comprido Curitiba",
+        "phone": "4156879122",
+        "image":"images/estofaria_icon.png",
+        "url": "http://estofados.com.br",
+        "color": "bronze",
+        "type": "furniture"
+        
+      },
+      {
+        "name": "DiBambina Pizzaria",
+        "address": "Rua Robert Redzimski 486, Cidade Industrial Curitiba",
+        "phone": "4188489562",
+        "image":"images/pizza_icon.png",
+        "url": "http://dibambina.com.br",
+        "color": "gold",
+        "type": "food"
+        
+      },
+      {
+        "name": "Vidraçaria Nei",
+        "address": "Rua Maria Homan Wiesnawski 258, Cidade Industrial Curitiba",
+        "phone": "415656565656",
+        "image":"images/vidros_icon.png",
+        "url": "http://vidrosnei.com.br",
+        "color": "bronze",
+        "type": "furniture"
+        
+      },
+      {
+        "name": "Associação Musical Alegro",
+        "address": "R. Prof. Pedro Viriato Parigot de Souza 5300, Cidade Industrial Curitiba",
+        "phone": "4191154654",
+        "image":"images/alegro_icon.png",
+        "url": "https://alegromusic.org",
+        "color":"nonprofit",
+        "type": "education"
+        
+      },
+      {
+        "name": "Mafrei",
+        "address": "Rua João Dembinski 689, Cidade Industrial Curitiba",
+        "phone": "415656565656",
+        "image":"images/logo-mafrei-120.png",
+        "url": "https://mafrei.com.br",
+        "color":"gold",
+        "type": "construction"        
+      },
+      {
+        "name": "DiMaria Sorvetes",
+        "address": "Rua Eduardo Sprada 4838, Cidade Industrial Curitiba",
+        "phone": "41565656565656",
+        "image":"images/sorveteria_icon.jpg",
+        "url": "https://sovetebom.com.br",
+        "color": "silver",
+        "type": "food"
+        
+      },
+      {
+        "name": "Sacolão Capitão",
+        "address": "Rua Robert Redzimski 732, Cidade Industrial Curitiba",
+        "phone": "415656565656",
+        "image":"images/sacolao_icon.png",
+        "url": "http://sacolaodafamilia.com.br",
+        "color": "silver",
+        "type": "food"
+        
+      }
+    ]
+}

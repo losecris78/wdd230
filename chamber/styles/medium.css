@@ -116,4 +116,12 @@ fieldset input#joinButton{
     align-items: center;
     justify-content:center;
 }
+
+/*--------------------directory--------------------------*/
+main div.partners section{
+    
+    flex-direction:column;}
+    main div .partners section img{
+        display:block;
+    }
 }

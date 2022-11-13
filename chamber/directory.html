@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
-    <title>Curitiba Chamber of Commerce</title>
+    <title>Directory</title>
 </head>
-<body>
+<body class="catalog">
     <header>
         <div>
             <span id="announcement"></span>
@@ -36,8 +36,8 @@
             <nav>
                 <button id="hamb_button"><span>&equiv;</span><span>x</span></button>
                 <ul id="pNav">
+                    <li class="hov"><a href="index.html">Home</a></li>
                     <li class="hov"><a href="discover.html">Discover</a></li>
-                    <li class="hov"><a href="directory.html">Directory</a></li>
                     <li class="hov"><a href="join.html">Join</a></li>
                     <li class="hov"><a href="http://">Contact</a></li>
                 </ul>
@@ -51,61 +51,15 @@
         </div>
 
     </header>
-    <main>
-        <div class="grid">
-            <div id="hero">
-                <picture>
-                    <source media="(min-width:900px)" srcset="images/image900.webp" type="image/webp">
-                    <source media="(min-width:600px)" srcset="images/image600.webp" type="image/webp">
-                    <source srcset="images/image200.webp" type="image/webp">
-                    <img src="images/imagejpg.jpg" alt="Hero image with different views according to viewport">
-                </picture>
-                <p id="call">Come join us!</p>
-            </div>
-            <div id="event">
-                <h2>Try our new Conference Center</h2>
-                <p>Since April 2022 our Conference Center if back on track, we invite you to organize your Conferences and Congresses using our facilities.</p>
+<main>
+    <h1>Membership of the chamber</h1>
+    <div class="partners">
+        <button id="complete">Display full catalog</button>
+        <button id="simple">Display list</button>
 
-            </div>
-            <div id="weather">
-                <h2>The weather today is</h2>
-                <span id="temp">40</span>°F
-                Wind Speed<span id="speed">5</span>MpH
-                <img src="images/weather-few-clouds.svg" alt="Weather image of the day">
-                Wind Chill: <span id="chill"></span>°F
-                <p>High nubosity, 80% rain Humidity:92% </p>
+    </div>
 
-            </div>
-            <div id="news_release">
-                <h2>Latest news.</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta perferendis expedita ab nostrum sunt in consequatur assumenda. Omnis distinctio, minima nemo hic alias praesentium amet quisquam tempora, ea fugit id!</p>
-
-            </div>
-            <div id="join">
-                <button type="button" class="block">Come join us!</button>
-                <p>Discover how to join the Curitiba Chamber of Commerce, and widen your business opportunities.</p>
-            </div>
-            <section id="spotlights">
-                <div id="spot1">
-                    <h3>Di Bambii Catering Services</h3>
-                    <p></p>
-
-                </div>
-                <div id="spot2">
-                    <h3>Bigme idiomas particulares</h3>
-                    <p></p>
-
-                </div>
-                <div id="spot3">
-                    <h3>Dra. Andrea Rocha</h3>
-                    <p>Orto Clean and Botox</p>
-
-                </div>
-            </section>
-
-        </div>
-
-    </main>
+</main>
     <footer>
         <div>
             <img  id="logo" src="images/logocuritiba.webp" alt="Logo Curitiba Chamber of Commerce">
@@ -115,7 +69,7 @@
             <p>Rua Eduardo Sprada 5341 Cidade Industrial, Curitiba Brasil</p>
             <p>contact@curichamber.com.br <br>  +41 9857 4368<br>
                 <a href="https://goo.gl/maps/QQjjuPLN189a2Tes9">Map link</a>
-                 </p>
+                </p>
         </div>
         <div class="end">
             Cristian L Sedas | wddd230 | &copy<span id="year1"></span><br><br>
@@ -125,7 +79,7 @@
 
     </footer>
     <script src="scripts/script.js"></script>
-    <script src="scripts/windchill.js"></script>
-    
+    <script src="scripts/directory.js"></script>
+
 </body>
 </html>
