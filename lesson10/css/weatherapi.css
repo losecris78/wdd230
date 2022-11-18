@@ -1,0 +1,43 @@
+* {
+    
+    margin:0;
+    padding:1rem;
+    
+}
+header h1 {
+    display:block;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: brown;
+    margin: 1em;
+}
+main div{
+    background-color: rgb(110, 172, 151);
+    border-radius: 1rem;
+    
+}
+main div p#credit{
+    font-size: 1.2rem;
+    font-style: italic;
+}
+main div figure img{
+    width: 10%;
+    
+}
+main div figure figcaption{
+    color:brown;
+    text-decoration: underline;
+}
+
+p, main div h2, div,#today{
+    display: block;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 2rem;
+}
+#current-temp{
+    
+    font-size: 3rem;
+    color:rgb(174, 40, 14);
+}

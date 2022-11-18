@@ -320,7 +320,7 @@ section a {
 
 .list section img {
     display: none;
- } /* smaller viewports only */
+ }
     
     
     *.catalog {
@@ -354,7 +354,7 @@ section a {
     
     }
    
-    main div.partners section{
+    .partners section{
         background-color: rgba(177, 189, 111, 0.363);
         border: 1px solid black;
         display:flex;
@@ -363,7 +363,7 @@ section a {
         text-align: center;
         margin: 0.3rem;
 }
-main div.partners img{
+    .partners img{
     max-width: 100%;
     /*max-width: 10em;*/
     margin: 1em auto;
