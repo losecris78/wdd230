@@ -39,7 +39,7 @@ const display = document.querySelector("section");
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
 
 //Toggle display//
-function togglDisplay(){
+/*function togglDisplay(){
 	document.getElementById("gridbutton").classList.toggle("complete");
 	document.getElementById("listbutton").classList.toggle("list");
 }
@@ -56,6 +56,6 @@ listbutton.addEventListener("click", showList); // example using defined functio
 function showList() {
 	display.classList.add("list");
 	display.classList.remove("partners");
-}
+}*/
 
  

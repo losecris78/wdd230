@@ -2,9 +2,9 @@
 *{
     box-sizing: border-box;
     margin:0.5rem 0.3rem;
-   /* background-color:#646536;*/
-    /*width: 340px;*/
-    padding: 0.3rem;
+    
+    max-width: 90vw;
+   
  
 }
 /*header*/
@@ -17,6 +17,7 @@ header div #datespan{
     background-color: rgba(197, 34, 48,0.09);
    /* border: 2px solid black;*/
     padding:.3vw;
+    width:max-content;
     /*position: relative;
     margin-left: 20%;
     margin-top: -4.1rem;*/
@@ -97,6 +98,14 @@ nav ul li a{
 .hov:hover{
     background-color: #f05d5e;
 }
+div ul#smedia{
+    display:block;
+    
+}
+div ul#smedia li{
+  list-style: none;
+    
+}
 /*main*/
 
 
@@ -109,13 +118,13 @@ nav ul li a{
 main .grid #hero{
     display: block;
     border: 2px solid rgba(0, 0, 0, 0.5);
-    width:93%; 
-    margin: .5rem auto;
+    width:100%; 
 }
 main .grid #hero picture source{
     width:100%;
-    margin: 0 auto;
-    overflow: hidden;
+    margin: 0;
+    
+    
     
     
 }

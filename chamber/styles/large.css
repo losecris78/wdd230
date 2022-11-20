@@ -2,8 +2,8 @@
 *{
     box-sizing: border-box;
     margin:0 0.3rem;
-    width:100%;
-    padding: 0.2rem;
+    max-width:99%;
+   
         
 }
    
@@ -20,7 +20,7 @@
     }
     header #maintop div{
         display:flex;
-        flex-direction: row;
+       
     }
     header #maintop #logo{
         width: 75%;
@@ -28,8 +28,8 @@
     }
     header #datespan p,#todayis{
         font-size: 22px;
-        background-color: #e7dfc6;
-        width:max-content;
+      
+        
     }
 
     /*navigation displays*/
@@ -41,6 +41,7 @@ nav ul {
     flex-direction: row;
     list-style-type: none;
     flex:1 1 100%;
+    margin: 1rem 0.3rem;
 }
 
 nav ul li a{
@@ -50,14 +51,16 @@ nav ul li a{
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
 }
+div ul#smedia{
+    display:flex;
+}
 
     /*main*/
 main div.grid{
     display:grid;
     grid-template-columns: 1fr 2fr 2fr 1fr;
     grid-template-rows: 300px;
-    margin: 0.5em 0.3rem;
-    padding: 20px;   
+    margin: 0.5em 0.3rem; 
     background-color: #9c9d64; 
     width:100%;
 }
@@ -65,7 +68,6 @@ main div.grid{
 .grid #hero{
     grid-column:2/4;
     grid-row:1/3;
-        
     width: 100%;
         
 }

@@ -2,8 +2,14 @@ let t = document.querySelector("#temp");
 let s = document.querySelector("#speed");
 function getChill(x,y){
     return 35.74 + (0.6215 * x) - (35.75 * (y ** 0.16)) + 0.4275 + (y ** 0.16);}
-let ch = getChill(40,5);
-document.getElementById("chill").innerHTML= Math.ceil(ch);
+let ch = getChill(t,s);
+  if (ch = NaN) { 
+  document.getElementById("chill").innerHTML= N/A;}
+  else{
+    document.getElementById("chill").innerHTML= Math.ceil(ch);
+
+  };
+
 
 // select HTML elements in the document
 const currentTemp = document.querySelector('#temp');
@@ -35,10 +41,10 @@ async function apiFetch() {
     humidity.innerHTML=`Humidity: ${weatherData.main.humidity.toFixed(0)}%`;
     const iconsrc = `https://openweathermap.org/img/w/${weatherData.weather[0].icon}.png`;
     const desc = weatherData.weather[0].description;
-  
+  let upperDesc = desc.toUpperCase();
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
-    captionDesc.textContent = desc;
+    captionDesc.textContent = upperDesc;
     imageUrl.innerHTML=`${icon}`;
   }
 

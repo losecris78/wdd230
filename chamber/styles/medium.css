@@ -36,10 +36,10 @@
         grid-row:1;
         grid-column: 1/3;
         display:block;
-        padding:.3rem;
+        
         
     }
-    .grid #hero{
+    .grid #hero picture source{
         width:100%;
         
     }
