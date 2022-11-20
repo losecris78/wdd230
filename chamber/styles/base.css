@@ -9,7 +9,7 @@
 }
 /*header*/
 header #maintop {
-    background-color:#646536;
+    /*background-color:#646536;*/
    
     padding: 2vw;
 }
@@ -95,7 +95,7 @@ nav ul li a{
 
 }
 .hov:hover{
-    background-color: #e9f1f7;
+    background-color: #f05d5e;
 }
 /*main*/
 
@@ -155,6 +155,24 @@ main .grid #hero picture source{
     
 }
 
+/*footer*/
+footer{
+    padding:.3rem;
+    margin: 0 auto;
+    
+    border:2px solid #777;
+    width:100%;
+}
+
+footer div #logo{
+    width: 35%;
+}
+
+footer div.end{
+    background-color:rgba(197, 34, 48,0.09);
+    border-radius: 1.5px solid #333;
+    padding: .2rem;
+}
 /*--------------discover page--------------------*/
 main div picture{
     width: max-content;
@@ -174,24 +192,6 @@ main picture .discover :hover{
 
     }
 
-/*footer*/
-footer{
-    padding:.3rem;
-    margin: 0 auto;
-    background-color: #646536;
-    border:2px solid #777;
-    width:100%;
-}
-
-footer div #logo{
-    width: 35%;
-}
-
-footer div.end{
-    background-color:rgba(197, 34, 48,0.09);
-    border-radius: 1.5px solid #333;
-    padding: .2rem;
-}
 /*---------------join page------------------------*/
 form fieldset{
     margin:2rem 0;
