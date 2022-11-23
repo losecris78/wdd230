@@ -1,5 +1,8 @@
+//------------------------variable definition--------------------//
+
 const requestURL = 'json/data.json';
 const cards = document.querySelector('.partners');
+const golden= document.querySelector('#spot1');
 
 async function getInfo(){
   let response = await fetch(requestURL);

@@ -9,7 +9,7 @@
 }
 /*header*/
 header #maintop {
-    /*background-color:#646536;*/
+    background-color:#646536;
    
     padding: 2vw;
 }
@@ -33,17 +33,17 @@ header div #announcement{
     line-height: 2rem;
 }
 header div div #logo{
-    display:inline;
+    display:block;
     border: 2px solid black;
-    width: 20%;   
+    width: 50%;   
 }
 header div div h1{
     font-family: 'DM Serif Display', serif;
-    font-size: 1rem;
+    font-size: 1.8rem;
     padding:.5rem;
     margin: 0.3rem;
     text-align: start;
-    overflow: auto;
+    
 }
 
 /*.clearfix{
@@ -66,10 +66,16 @@ nav #hamb_button{
     margin: .2rem 0;
 }
 #insta, #twitter{
-    display: inline;
     width:3rem;
-    box-shadow: 3px #777;
     border: 2px solid #333;
+}
+div ul#smedia{
+    display:flex;
+    
+}
+div ul#smedia li{
+  list-style: none;
+    
 }
 #hamb_button span:nth-child(1){
     display: block;
@@ -98,14 +104,6 @@ nav ul li a{
 .hov:hover{
     background-color: #f05d5e;
 }
-div ul#smedia{
-    display:block;
-    
-}
-div ul#smedia li{
-  list-style: none;
-    
-}
 /*main*/
 
 
@@ -115,10 +113,11 @@ div ul#smedia li{
     width: 95%;
     margin: .5rem .3rem;
 }
-main .grid #hero{
+main .grid div#hero{
     display: block;
     border: 2px solid rgba(0, 0, 0, 0.5);
-    width:100%; 
+    max-width: fit-content;
+    margin: 1rem auto;
 }
 main .grid #hero picture source{
     width:100%;
@@ -168,10 +167,15 @@ main .grid #hero picture source{
 footer{
     padding:.3rem;
     margin: 0 auto;
-    
     border:2px solid #777;
     width:100%;
+    background-color:#646536;
 }
+footer div#contact_data{
+display:flex;
+
+}
+
 
 footer div #logo{
     width: 35%;
