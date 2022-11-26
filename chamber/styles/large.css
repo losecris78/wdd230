@@ -9,11 +9,17 @@
    
     /*header*/
    
+    #main_logo{
+        display:flex;
+    }
     header div div h1{
         font-size: 5rem;
         display: inline;
-        margin-top: 3em;
+      align-items: center;
         
+    }
+    header div div #logo{
+        width: 40%;   
     }
     header div #announcement{
     font-size: 30px;
@@ -21,6 +27,9 @@
     header #maintop div{
         display:flex;
        
+    }
+    header #main_logo img{
+        width: 200px;
     }
     header #maintop #logo{
         width: 75%;
@@ -111,12 +120,13 @@ main div.grid{
         
         
     }
-    .grid #join{
+    .grid div#join{
         display: block;
         grid-row: 4;
         grid-column: 1/2;
-        
-
+    }
+    .grid div #join button{
+width:95%;
     }
     .grid #event{
         display:block;
@@ -135,6 +145,6 @@ main div.grid{
        
     }
     footer div #logo{
-        width:200px;
+        width:25%;
     }
 }
