@@ -20,6 +20,7 @@ async function getInfo(){
       let h2 = document.createElement('h2');
       let p = document.createElement('p');
       let portrait = document.createElement('img');
+      
 
       h2.innerHTML = `${member.name}`;
       p.innerHTML=`Address: ${member.address}<br>

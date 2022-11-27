@@ -56,7 +56,7 @@ nav ul{
     
 }
 
-nav ul#pNav.open{
+nav ul #pNav .open{
     display:block;
     list-style-type: none;
     padding: 0;
@@ -87,10 +87,10 @@ div ul#smedia li{
 #hamb_button span:nth-child(2){
     display: none;
 }
-#hamb_button.open span:nth-child(1){
+#hamb_button .open span:nth-child(1){
     display: none;
 }
-#hamb_button.open span:nth-child(2){
+#hamb_button .open span:nth-child(2){
     display: block;
     font-size: 2rem;
     font-weight: bold;
@@ -154,7 +154,7 @@ main .grid #hero picture source{
     margin-top:-50px;
     margin-left: 20px;
     background-color: #f05d5e;
-    border-radius: 2px solid black;
+    border-radius: 2px;
     width: 250px;
     height:35px;
     padding: .5rem;
@@ -162,7 +162,7 @@ main .grid #hero picture source{
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    text-justify: center;
+    text-justify:auto;
     
 }
 
@@ -185,7 +185,7 @@ footer div #logo{
 
 footer div.end{
     background-color:rgba(197, 34, 48,0.09);
-    border-radius: 1.5px solid #333;
+    border-radius: 1.5px;
     padding: .2rem;
 }
 /*--------------discover page--------------------*/

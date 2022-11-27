@@ -19,11 +19,15 @@ document.querySelector("#datejoined.value").innerHTML=date;
 
 //Toggle Menu for Hamburguer button//
 function toggleMenu(){
-	document.getElementById("pNav").classList.toggle("open");
-	document.getElementById("hamb_button").classList.toggle("open");
+	bread.classList.toggle("open");
+	navi.classList.toggle("open");
 };
 let bread= document.getElementById("hamb_button");
-bread.onclick= toggleMenu();
+let navi= document.getElementById("pNav");
+bread.addEventListener('click',toggleMenu)
+
+/*bread.onclick = toggleMenu();
+bread.addEventListener('click',toggleMenu);*/
 
 //Announcement that will appear only on Monday and Tuesday//
 if (day === 1) {document.getElementById("announcement").innerHTML ="🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m."};
