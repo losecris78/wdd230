@@ -79,7 +79,7 @@ main div.grid{
     grid-row:1/3;
     width: 100%;
         
-}
+}/*------------Call to action----*/
     #call{
         margin-top: -25px;
         font-size: 40px;
@@ -92,12 +92,13 @@ main div.grid{
         grid-column: 2/4;
         padding:.3rem;
     }
+    /* ---------------------- Spotlights------------------*/
     .grid #spotlights{
         display:block;
         grid-row: 1/6;
         grid-column:4/5;
         width:.8fr;
-        margin: 0.2rem 1.6rem;
+        margin: 0.2rem .6rem;
         
     }
     #spot3{

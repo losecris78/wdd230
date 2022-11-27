@@ -1,14 +1,14 @@
-/* t = document.querySelector("#temp");
+let t = document.querySelector("#temp");
 let s = document.querySelector("#speed");
 function getChill(x,y){
     return 35.74 + (0.6215 * x) - (35.75 * (y ** 0.16)) + 0.4275 + (y ** 0.16);}
-let ch = getChill(t,s);
-  if (ch = NaN) { 
+let ch = getChill(63,8);
+  if (ch =="NaN") { 
   document.getElementById("chill").innerHTML= N/A;}
   else{
     document.getElementById("chill").innerHTML= Math.ceil(ch);
 
-  };*/
+  };
 
 
 // select HTML elements in the document
@@ -47,7 +47,7 @@ async function apiFetch() {
     captionDesc.textContent = upperDesc;
     imageUrl.innerHTML=`${icon}`;
   }
-  let ch = getChill(currentTemp,windSpeed);
+  /*let ch = getChill(currentTemp,windSpeed);
   function getChill(x,y){
     return 35.74 + (0.6215 * x) - (35.75 * (y ** 0.16)) + 0.4275 + (y ** 0.16);}
   if (ch = NaN) { 
@@ -56,7 +56,7 @@ async function apiFetch() {
     document.getElementById("#chill").innerText= Math.ceil(ch);
 
   };
-  getChill();
+  getChill();*/
 
 
 
